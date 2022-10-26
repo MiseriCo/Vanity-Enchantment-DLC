@@ -53,6 +53,7 @@ namespace VanityEnch.Projectiles
                 }
                 else if (Projectile.ai[0] >= 15)
                 {
+                    storeDamage = 0;
                     storeDamage += Projectile.damage;
                     Projectile.damage = 0;
                     foreach (var proj in Main.projectile)
