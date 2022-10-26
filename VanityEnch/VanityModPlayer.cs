@@ -42,7 +42,7 @@ namespace VanityEnch
                 Vector2 coinvel;
                 coinvel.X = 0;
                 coinvel.Y = -8.0f;
-                Projectile.NewProjectile(Player.GetSource_Accessory(TaxEnchant), Main.player[Main.myPlayer].position, coinvel, ModContent.ProjectileType<UKCoin>(), 0, 0.0f, Main.myPlayer);
+                Projectile.NewProjectile(Player.GetSource_Accessory(TaxEnchant), Main.player[Main.myPlayer].Center, coinvel, ModContent.ProjectileType<UKCoin>(), 0, 0.0f, Main.myPlayer);
                 Coins--;
             }
             if (VanityEnchMod.TaxPunchBind.JustPressed && TaxEnchant != null)
