@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fUAY1JjcqxY2/NT4NLun3ZTcOyvf/tTNPRqtadUsvB3iyvacggkIQjUCuvNsvScRwlQ63VPo1Fe7io+j0GIFuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Пользователь\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VanityEnch\\VanityEnch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

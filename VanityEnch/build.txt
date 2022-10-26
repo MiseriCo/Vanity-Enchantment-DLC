@@ -1,0 +1,3 @@
+displayName = Vanity Enchantments
+author = Miseri
+version = 0.1
