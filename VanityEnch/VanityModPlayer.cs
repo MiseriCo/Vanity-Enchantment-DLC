@@ -12,6 +12,7 @@ namespace VanityEnch
 	{
         public Item MermaidEnchant;
         public Item TaxEnchant;
+        public Item RuneEnchant;
         public int Coins = 4;
         public int TaxCooldown = 0;
         
@@ -19,6 +20,7 @@ namespace VanityEnch
         {
             MermaidEnchant = null;
             TaxEnchant = null;
+            RuneEnchant = null;
         }
 
         public override void PostUpdate()
@@ -45,7 +47,7 @@ namespace VanityEnch
                 Projectile.NewProjectile(Player.GetSource_Accessory(TaxEnchant), Main.player[Main.myPlayer].Center, coinvel, ModContent.ProjectileType<UKCoin>(), 0, 0.0f, Main.myPlayer);
                 Coins--;
             }
-            if (VanityEnchMod.TaxPunchBind.JustPressed && TaxEnchant != null)
+            /*if (VanityEnchMod.TaxPunchBind.JustPressed && TaxEnchant != null)
             {
                 Vector2 forward;
                 forward.X = 5;
@@ -53,7 +55,7 @@ namespace VanityEnch
                 Vector2 spawn = Main.player[Main.myPlayer].position;
                 spawn.Y += 20;
                 Projectile.NewProjectile(Player.GetSource_Accessory(TaxEnchant), spawn, forward, ModContent.ProjectileType<UKPunch>(), 20, 2.0f, Main.myPlayer);
-            }
+            }*/
             base.ProcessTriggers(triggersSet);
         }
         public override void OnHitAnything(float x, float y, Entity victim)
